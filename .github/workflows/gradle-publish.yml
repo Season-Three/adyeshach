@@ -61,4 +61,4 @@ jobs:
         tag_name: ${{ env.JAR_FILENAME }}
         files: ${{ github.workspace }}/plugin/build/output/libs/*.jar
       env:
-        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
